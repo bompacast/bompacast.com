@@ -1,0 +1,45 @@
+
+/* cabeçalho do bagulho */
+@media only screen and (max-width: 600px) {
+    .header-mid {
+        display: none;
+    }
+    .header-mid img {
+        display: none;
+    }
+}
+.header-mid {
+    display: flex;
+    justify-content: center;
+}
+.header-wrap {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(white,rgb(230, 230, 230));
+}
+.header {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 70px;
+}
+.header-start {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+.header-start img {
+    margin: 0px;
+}
+.header-end {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.header-end a {
+    padding-left: 25px;
+}
+.header img {
+    filter: opacity(90%);
+}

@@ -1,0 +1,47 @@
+/* menu lateral dos guri do sul */
+.sidebar {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    top: 0px;
+    left: -300px;
+    background-color: rgb(240,240,240);
+}
+.sidebar a {
+    color: black;
+    padding-left: 10vh;
+    padding: 3px;
+    text-decoration: none;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 10%;
+}
+.sidebar p {
+    color: rgb(0,0,0);
+}
+.sidebar h1 {
+    padding: 10%;
+}
+
+.sidebar-start {
+    display: flex;
+    align-items: center;
+}
+.sidebar-start img {
+    margin-left: 100px;
+    padding: 5px;
+}
+.sidebar-start img:hover {
+    cursor: pointer;
+    background-color: rgb(200,200,200);
+}
+
+@keyframes fade_in {
+    from {left: -300px;top: 0px;}
+    to {left: 0px;top: 0px;}
+}
+@keyframes fade_out {
+    from {left: 0px;top: 0px;}
+    to {left: -300px;top: 0px;}
+}
