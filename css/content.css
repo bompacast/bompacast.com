@@ -2,7 +2,6 @@
 .content {
     height: 100vh;
     width: 100%;
-    background-color: rgb(255,255,255);
 }
 .body {
     display: flex;
@@ -22,15 +21,49 @@
 #home-page p {
     text-align: justify;
 }
+
 #about {
+    width: 550px;
+    margin-top: 30px;
+    height: auto;
     display: none;
 }
+#about h1{
+    text-align: center;
+    margin: 10px;
+}
+#about p {
+    text-align: justify;
+}
+
 #founders {
+    width: 550px;
+    margin-top: 30px;
+    height: auto;
     display: none;
 }
+#founders h1{
+    text-align: center;
+    margin: 10px;
+}
+#founders p {
+    text-align: justify;
+}
+
 #archives {
+    width: 550px;
+    margin-top: 30px;
+    height: auto;
     display: none;
 }
+#archives h1{
+    text-align: center;
+    margin: 10px;
+}
+#archives p {
+    text-align: justify;
+}
+
 p {
     line-height: 25px;
     word-spacing: 3px;

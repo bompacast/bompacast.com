@@ -15,7 +15,7 @@
 .header-wrap {
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(white,rgb(230, 230, 230));
+    background-image: linear-gradient(rgb(214, 214, 214), white);
 }
 .header {
     display: flex;
