@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>BompaCast - E.E.B. Bom Pastor</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./css/sidebar.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/content.css">
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    </header>
+    <body>
+        <div class="wrapper">
+            <div class="content" id="content">
+                <div class="header-wrap">
+                    <div class="header">
+                        <div class="header-start">
+                            <img id="menu-icon" src="./assets/menu-icon.png" style="padding: 10px; cursor: pointer;" width="29" height="20">
+                        </div>
+                        <div class="header-mid">
+                            <img src="./assets/logo.png" id="bompa-icon" width="61" height="50">
+                        </div>
+                        <div class="header-end">
+                            <a href="#" target="_blank"><img src="./assets/spotify icon.png" width="24" height="25"></a>
+                            <a href="https://twitter.com/BompaCast43157" target="_blank"><img src="./assets/twitter logo.png" width="30" height="25"></a>
+                            <a href="#" target="_blank"><img src="./assets/youtube icon.png" width="35" height="25"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="body">
+                    <div id="home-page">
+                        <p>Ivern não pode atacar ou ser atacado por monstros não épicos. Ele pode criar bosques mágicos que crescem ao longo do tempo em acampamentos da selva. Quando o bosque estiver em seu tamanho final, Ivern pode libertar os monstros para receber ouro e experiência.<p>
+                    </div>
+                    <div id="about">
+                        <p>Ivern não pode atacar o</p>
+                    </div>
+                    <div id="founders">
+                        <p>Ivern não </p>
+                    </div>
+                    <div id="archives">
+                        <p>Ivern não pode atacar ou ado por monss não épicos. Ele pode criar bosques mágicos que crescem ao longo do tempo em acampamentos da selva. Quando o bosque estiver em seu tamanho final, Ivern pode libertar os monstros para receber ouro e experiência.<p>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar" id="sidebar">
+                <div class="sidebar-start">
+                    <h1>MENU</h1>
+                    <img src="./assets/fechar.png" id="fechar-side-bar" width="20" height="20">
+                </div>
+                <ul>
+                    <li>
+                        <a class="home" onclick="change_page('home-page')"><p><b>HOME</b></p></a><hr>
+                    </li>
+                    <li>
+                        <a class="about" onclick="change_page('about')"><p><b>SOBRE</b></p></a><hr>
+                    </li>
+                    <li>
+                        <a class="founders" onclick="change_page('founders')"><p><b>FUNDADORES</b></p></a><hr>
+                    </li>
+                    <li>
+                        <a class="archives" onclick="change_page('archives')"><p><b>ARQUIVO</b></p></a><hr>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+    <script src="./js/mostrar-menu-lateral.js"></script>
+    <script src="./js/trocar-página.js"></script>
+</html>
