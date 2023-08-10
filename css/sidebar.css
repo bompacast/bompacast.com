@@ -17,6 +17,9 @@
     list-style: none;
     padding: 10%;
 }
+.sidebar p:hover{
+    cursor: pointer;
+}
 .sidebar p {
     color: rgb(0,0,0);
 }

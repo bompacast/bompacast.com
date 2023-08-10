@@ -8,14 +8,28 @@
         display: none;
     }
 }
+@keyframes expand {
+    from{transform: scale(1.0);}
+    to{transform: scale(1.2);}
+}
+
 .header-mid {
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 10px;
+    left: 48vw;
 }
 .header-wrap {
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(rgb(214, 214, 214), white);
+    position: fixed;
+    height: 70px;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 0 30px rgb(214, 214, 214);
+    background-color: white;
 }
 .header {
     display: flex;
@@ -42,4 +56,17 @@
 }
 .header img {
     filter: opacity(90%);
+}
+
+/* animações */
+#yt:hover {
+    animation: expand 0.3s forwards;
+}
+
+#twt:hover {
+    animation: expand 0.3s forwards;
+}
+
+#spotify:hover {
+    animation: expand 0.3s forwards;
 }
