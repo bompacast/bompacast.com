@@ -16,9 +16,26 @@
     margin-top: 30px;
     height: auto;
 }
-#home-page h1{
-    text-align: center;
-    margin: 10px;
+#titulo {
+    text-align:center;
+    margin: 10px auto;
+    background-color: black;
+    color: white;
+    font-size: 40pt;
+}
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+#titulo:after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
 }
 #home-page p {
     text-align: justify;
