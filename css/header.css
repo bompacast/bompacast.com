@@ -1,10 +1,10 @@
 
 /* cabeçalho do bagulho */
 @media only screen and (max-width: 600px) {
-    .header-mid {
+    #header-mid {
         display: none;
     }
-    .header-mid img {
+    #header-mid img {
         display: none;
     }
 }
