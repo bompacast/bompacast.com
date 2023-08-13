@@ -1,4 +1,48 @@
+#IA{
+    display: flex;
+    position: fixed;
+    justify-content: end;
+    align-items: end;
+    top: calc(100vh - 450px);
+    left: calc(100vw - 420px);
+    animation: floating 1500ms linear infinite;
+}
 #IA img{
-    height: 100px;
-    width: 100px;
+    scale: 0.13;
+}
+#IA img:hover{
+    cursor: pointer;
+}
+
+@keyframes floating{
+    0%{
+        top: calc(100vh - 450px);
+    }
+    7.14%{
+        top: calc(100vh - 449px);
+    }
+    14.2857%{
+        top: calc(100vh - 446px);
+    }
+    21.4285%{
+        top: calc(100vh - 442.5px);
+    }
+    28.5714%{
+        top: calc(100vh - 436.5px);
+    }
+    35.7142%{
+        top: calc(100vh - 433px);
+    }
+    42.8571%{
+        top: calc(100vh - 430.5px);
+    }
+    50%{
+        top: calc(100vh - 430px);
+    }
+    75%{
+        top: calc(100vh - 440px);
+    }
+    100%{
+        top: calc(100vh - 450px);
+    }
 }
