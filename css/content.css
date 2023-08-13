@@ -5,11 +5,13 @@
     width: 100%;
 }
 .body {
-    display: flex;
+    display:grid;
+    position: relative;
     justify-content: center;
     align-items: center;
     margin: 20px;
     margin-top: 90px;
+    text-align: center;
 }
 #home-page {
     width: 550px;
@@ -21,7 +23,7 @@
     margin: 10px auto;
     background-color: black;
     color: white;
-    font-size: 40pt;
+    font-size: 30pt;
 }
 @keyframes pisca{
     0%, 100%{

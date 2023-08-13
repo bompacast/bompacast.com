@@ -17,7 +17,7 @@
     to{transform: scale(0.8);}
 }
 
-.header-mid {
+#header-mid {
     display: flex;
     justify-content: center;
     position: fixed;
@@ -72,7 +72,4 @@
 
 #spotify:hover {
     animation: expand 0.3s forwards;
-}
-#bompa-icon:hover{
-    animation: dexpand 0.3s forwards;
 }
